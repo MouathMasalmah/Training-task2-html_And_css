@@ -357,52 +357,75 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transform: scale(1.05);
 }
-
-@media (max-width: 768px) {
-  .quality-header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .quality-buttons {
-    justify-content: center;
-  }
+.services-section {
+  padding: 80px 32px;
+  background-color: #F2F4F4;
 }
 
-@media (max-width: 900px) {
-  .main-row {
-    flex-direction: column;
-  }
-  .main-col-left, .main-col-right {
-    padding: 32px;
-  }
-  .main-title {
-    font-size: 40px;
-  }
-  .stats-row {
-    gap: 24px;
-    padding: 24px 12px;
-  }
-  .project-card {
-    width: 100%;
-    padding: 16px;
-  }
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-@media (max-width: 600px) {
-  .first-section-with-image {
-    border-radius: 0;
-    max-width: 100%;
-    margin: 0;
-  }
-  .main-title {
-    font-size: 28px;
-  }
-  .main-col-left, .main-col-right {
-    padding: 16px;
-  }
-  .stats-row {
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px 4px;
-  }
+
+.services-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-header h2 {
+  font-size: 36px;
+  color: #222;
+}
+
+.services-header h2 span {
+  color: #00d47e;
+  font-weight: 700;
+}
+
+.services-grid {
+  display: grid;
+  background: #fafafa;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.service-card {
+  background: #fafafa;
+  padding: 32px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  background: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.service-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
 }
