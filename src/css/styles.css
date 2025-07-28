@@ -267,8 +267,8 @@ body {
 }
 
 .quality-text h2 {
-  font-size: 36px;
-  margin-bottom: 16px;
+  font-size: 40px;
+  margin-bottom: 40px;
   color: #111;
 }
 
@@ -283,7 +283,7 @@ body {
 }
 
 .quality-text p {
-  font-size: 18px;
+  font-size: 20px;
   color: #555;
   max-width: 600px;
 }
