@@ -340,7 +340,7 @@ body {
 .circle-btn:hover {
     background-color: #ffffff;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px #00000014;
 }
 .services-section {
   padding: 80px 32px;
@@ -382,14 +382,14 @@ body {
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px #0000001a;
 }
 
 .service-icon {
   width: 60px;
   height: 60px;
   background: #fafafa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px #0000001a;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -471,7 +471,7 @@ body {
   object-fit: cover;
   border-radius: 16px;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px #0000001a;
 }
 
 .services-new-grid {
@@ -487,13 +487,13 @@ body {
   border-radius: 16px;
   border: 1px solid #e0e0e0;
   padding: 32px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px #0000000d;
   transition: all 0.3s ease;
 }
 
 .service-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px #0000001a;
 }
 
 .service-number {
@@ -614,7 +614,7 @@ body {
   width: 500px;
   max-width: 100%;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px #0000001a;
 }
 
 .testimonial-tabs {
@@ -677,7 +677,7 @@ body {
   display: inline-block;
   margin-top: 32px;
   background-color: #00d47e;
-  color: white;
+  color: #ffffff;
   padding: 12px 28px;
   font-size: 16px;
   font-weight: 500;
@@ -685,42 +685,34 @@ body {
   border-radius: 30px;
   transition: background-color 0.3s ease;
 }
-
 .testimonial-cta-btn:hover {
   background-color: #00b86b;
 }
-
 .testimonial-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1px;
 }
-
-/* Image size */
 .testimonial-image-box img {
   max-width: 300px;
   height: auto;
 }
-
-/* Timer Indicators */
 .testimonial-timer-indicators {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
 }
-/* Timer Line Base Style */
 .timer-line {
   width: 60px;
   height: 4px;
-  background-color: #ddd;
+  background-color: #dddddd;
   position: relative;
   overflow: hidden;
   border-radius: 2px;
 }
 
-/* Timer fill animation per line */
 .line1::before,
 .line2::before,
 .line3::before {
@@ -743,7 +735,6 @@ body {
   animation: fillLine3 15s infinite;
 }
 
-/* Keyframes for each line separately */
 @keyframes fillLine1 {
   0%, 4%   { width: 0%; }
   5%, 30%  { width: 100%; }
@@ -763,7 +754,7 @@ body {
   display: inline-block;
   margin: 60px auto 0;
   background-color: #00d47e;
-  color: white;
+  color: #ffffff;
   padding: 14px 32px;
   font-size: 18px;
   font-weight: 500;
