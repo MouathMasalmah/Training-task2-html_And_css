@@ -370,7 +370,7 @@ body {
   display: grid;
   background: #fafafa;
   border-radius: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   border: 1px solid #e0e0e0;
   overflow: hidden; 
 }
@@ -585,7 +585,7 @@ body {
 .testimonial-text-box h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
   color: #111;
 }
 
