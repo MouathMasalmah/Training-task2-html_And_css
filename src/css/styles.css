@@ -446,15 +446,19 @@ body {
 .trusted-header {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: space-between;
   flex-direction: column;
   margin-bottom: 20px;
 }
-
+.trusted-header h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 16px;
+}
 .trusted-content-wrapper {
   display: flex;
-  gap: 40px;
-  align-items: center;
+  gap: 100px;
+  align-items: space-between;
   flex-direction: column;
   margin-right: 50px;
 }
@@ -477,12 +481,12 @@ body {
 .services-new-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(2, 250px);
-  gap: 15px;
+  grid-template-columns: repeat(2, 350px);
+  grid-row-gap: 15px;
 }
 
 .service-item {
-  width: 70%;
+  width: 75%;
   background: white;
   border-radius: 16px;
   border: 1px solid #e0e0e0;
@@ -536,7 +540,6 @@ body {
 .testimonial-section {
   padding: 80px 32px;
   height: auto;
-  margin-bottom: 100px;
   background: #f9f9f9;
   text-align: center;
 }
@@ -555,6 +558,7 @@ body {
 .testimonial-container {
   max-width: 1200px;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 .testimonial-content {
