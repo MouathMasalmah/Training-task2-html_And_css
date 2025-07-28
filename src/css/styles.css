@@ -776,12 +776,11 @@ body {
 .standalone-btn:hover {
   background-color: #00b86b;
 }
-/* ...existing code... */
 
 .custom-footer {
   background: #000;
   color: #fff;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -797,18 +796,19 @@ body {
 }
 
 .custom-footer-left {
-  max-width: 600px;
+  max-width: auto;
 }
 
 .custom-footer-main-description {
-  font-size: 48px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
   line-height: 1.1;
 }
 
 .custom-footer-main-description span {
-  color: #fff;
+  color: #8D959D;
   font-weight: 600;
 }
 
@@ -818,7 +818,7 @@ body {
   margin-top: 24px;
 }
 
-.custom-footer-tick {
+.custom-footer-like-tick {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -826,20 +826,20 @@ body {
   color: #fff;
 }
 
-.custom-footer-tick img {
+.custom-footer-like-tick img {
   width: 28px;
   height: 28px;
 }
 
 .custom-footer-right {
-  max-width: 600px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .custom-footer-right p {
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   opacity: 0.9;
   margin-bottom: 18px;
@@ -851,7 +851,7 @@ body {
   color: #111;
   border: none;
   border-radius: 32px;
-  padding: 16px 40px;
+  padding: 20px;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
