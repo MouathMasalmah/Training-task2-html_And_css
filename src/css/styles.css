@@ -258,6 +258,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   text-align: left;
   min-width: 280px;
 }
@@ -976,9 +977,36 @@ padding-bottom: 50px;
 .custom-footer-bottom-bottom a:hover {
   color: #fff;
 }
-/* === Media Queries موحّدة للأزرار والفوتر === */
 
 @media (max-width: 600px) {
+  .quality-section {
+    padding: 40px 16px;
+  }
+  .quality-text {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quality-buttons {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+  .quality-text h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .quality-text p {
+    padding: 5%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .quality-buttons {
+    display:flex;
+      }
+
   .custom-footer-top,
   .custom-footer-bottom {
     margin-left: 20px;
@@ -1027,6 +1055,47 @@ padding-bottom: 50px;
 }
 
 @media (max-width: 1024px) {
+  .quality-section {
+    padding: 40px 16px;
+  }
+  .quality-header{
+    gap: 0;
+  margin-bottom: 0;
+  }
+  .quality-text {
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.quality-buttons {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+  .quality-text h2 {
+    text-align: center;
+  }
+
+  .quality-text p {
+    text-align: center;
+  }
+
+  .quality-buttons {
+    display:flex;
+      }
+
+  .circle-btn {
+    width: 220px;
+    height: 220px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .circle-btn img {
+    width: 75%;
+    height: 75%;
+  }
   
   .custom-footer-top,
   .custom-footer-bottom {
