@@ -93,14 +93,14 @@ body {
   
 }
 
-.main-col {
+.main-column {
   flex: 1 1 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.main-col-left {
+.main-column-left {
   color: #fff;
   padding: 48px 48px 48px 64px;
   position: relative;
